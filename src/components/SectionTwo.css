@@ -1,0 +1,18 @@
+.s2{
+  height: 5000px;
+  background: url('../assets/background-services.png') ;
+}
+
+.s2 img{
+  width: 64px;
+  height: 64px;
+  margin: auto;
+  margin-top: 7.5rem;
+}
+
+.icon-menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 15rem;
+  margin-left: 5rem;
+}
