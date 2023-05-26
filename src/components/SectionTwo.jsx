@@ -41,6 +41,9 @@ const SectionTwo = () => {
           <p>Ações de acompanhamento e promoção à saúde aderentes às necessidades dos segurados.</p>
         </div>
      </div>
+     <div className="icon-text">
+      <h2><span className="orange-detail">Planos sob medida</span> com os melhores hospitais, clínicas, médicos e laboratórios para você cuidar da sua <span className="orange-detail">Saúde Integral</span><span className="span">.</span></h2>
+     </div>
     </section>
   )
 }
