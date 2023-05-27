@@ -1,17 +1,22 @@
 import './SectionTwo.css'
-import cart from '../assets/cart.gif'
+import refound from '../assets/refound.gif'
 import company from '../assets/company.gif'
 import bed from '../assets/bed.gif'
 import money from '../assets/money.gif'
 import service from '../assets/service.gif'
 import health from '../assets/health.gif'
+import icontitle from '../assets/icon-title.png'
 
 const SectionTwo = () => {
   return (
     <section className="s2">
       <div className="icon-menu">
-        <div>
-          <img src={cart} alt="Shopping Cart" />
+        <div className="division">
+          <img src={icontitle} alt="Icon Title" />
+          <h2>Beneficios</h2>
+        </div>
+        <div className="a">
+          <img src={refound} alt="Refound" />
           <h3>Reembolso</h3>
           <p>Exclusivo para fisioterapia, nutricionista, psicologia, fonoaudiologia, acupuntura e terapia ocupacional.</p>
         </div>
@@ -42,7 +47,34 @@ const SectionTwo = () => {
         </div>
      </div>
      <div className="icon-text">
-      <h2><span className="orange-detail">Planos sob medida</span> com os melhores hospitais, clínicas, médicos e laboratórios para você cuidar da sua <span className="orange-detail">Saúde Integral</span><span className="span">.</span></h2>
+      <div className="division">
+      <img src={icontitle} alt="Icon Title" />
+      <h2>Estátisticas</h2>
+      </div>
+      <div className='a'>
+        <h4>2.4 milhões</h4>
+        <p>de beneficiários - Saúde</p>
+      </div>
+      <div>
+        <h4>1.8 milhões</h4>
+        <p>de beneficiários - Odonto</p>
+      </div>
+      <div>
+        <h4>+3.600</h4>
+        <p>laboratórios</p>
+      </div>
+      <div>
+        <h4>1.200</h4>
+        <p>hospitais</p>
+      </div>
+      <div>
+        <h4>+18.300</h4>
+        <p>profissionais de saúde</p>
+      </div>
+      <div>
+        <h4>+11.000</h4>
+        <p>de profissionais de odonto</p>
+      </div>
      </div>
     </section>
   )

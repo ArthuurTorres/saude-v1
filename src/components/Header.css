@@ -22,8 +22,7 @@ header nav{
 header nav a{
   margin-right: 2rem;
   text-decoration: none;
-  color: #082b6d; 
+  color: var(--color-5); 
   font-size: 1.1rem;
   font: 500 1.25rem/0.75 'Poppins', sans-serif;
-
 }
