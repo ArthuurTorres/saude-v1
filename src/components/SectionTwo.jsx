@@ -8,14 +8,16 @@ import health from '../assets/health.gif'
 import icontitle from '../assets/icon-title.png'
 
 const SectionTwo = () => {
+
   return (
-    <section className="s2">
-      <div className="icon-menu">
-        <div className="division">
-          <img src={icontitle} alt="Icon Title" />
-          <h2>Beneficios</h2>
-        </div>
-        <div className="a">
+    <section className="container1">
+          <div className="icon-logo">
+          <h2>
+            <img className="icontitle" src={icontitle}></img>
+            Confira alguns dos nossos <span className='orange-detail'>benefícios.</span></h2>
+          </div>
+      <div className="icon-menu">         
+        <div>
           <img src={refound} alt="Refound" />
           <h3>Reembolso</h3>
           <p>Exclusivo para fisioterapia, nutricionista, psicologia, fonoaudiologia, acupuntura e terapia ocupacional.</p>
@@ -45,37 +47,18 @@ const SectionTwo = () => {
           <h3>Gestão Integrada de Saúde</h3>
           <p>Ações de acompanhamento e promoção à saúde aderentes às necessidades dos segurados.</p>
         </div>
+        <div>
+          <img src={health} alt="health" />
+          <h3>Gestão Integrada de Saúde</h3>
+          <p>Ações de acompanhamento e promoção à saúde aderentes às necessidades dos segurados.</p>
+        </div>
+        <div>
+          <img src={health} alt="health" />
+          <h3>Gestão Integrada de Saúde</h3>
+          <p>Ações de acompanhamento e promoção à saúde aderentes às necessidades dos segurados.</p>
+        </div>
      </div>
-     <div className="icon-text">
-      <div className="division">
-      <img src={icontitle} alt="Icon Title" />
-      <h2>Estátisticas</h2>
-      </div>
-      <div className='a'>
-        <h4>2.4 milhões</h4>
-        <p>de beneficiários - Saúde</p>
-      </div>
-      <div>
-        <h4>1.8 milhões</h4>
-        <p>de beneficiários - Odonto</p>
-      </div>
-      <div>
-        <h4>+3.600</h4>
-        <p>laboratórios</p>
-      </div>
-      <div>
-        <h4>1.200</h4>
-        <p>hospitais</p>
-      </div>
-      <div>
-        <h4>+18.300</h4>
-        <p>profissionais de saúde</p>
-      </div>
-      <div>
-        <h4>+11.000</h4>
-        <p>de profissionais de odonto</p>
-      </div>
-     </div>
+     
     </section>
   )
 }

@@ -10,6 +10,14 @@ const Form = () => {
           <input type="text" name="Nome" placeholder='nome' />
           <input placeholder='Email'></input> 
           <input placeholder='Telefone'></input>
+          <select id="appearance-select">
+          <option>Selecione</option>
+          <option>Primeira opção</option>
+          <option>Segunda opção</option>
+          <option>Terceira opção</option>
+          <option>Quarta opção</option>
+          </select>
+          <button type="submit">Enviar</button>
         </form>
       </div>
     </div>

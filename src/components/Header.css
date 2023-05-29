@@ -5,18 +5,18 @@ header{
   justify-content: space-between;
   margin-left: 150px;
   margin-right: 150px;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.55rem;
 }
 
 header img{
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
   margin-top: 1rem;
 }
 
 header nav{
   padding: 1rem 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 header nav a{

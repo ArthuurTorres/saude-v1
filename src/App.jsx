@@ -2,6 +2,7 @@ import './App.css'
 import Form from './components/Form'
 import Header from './components/Header'
 import SectionOne from './components/SectionOne'
+import SectionThree from './components/SectionThree'
 import SectionTwo from './components/SectionTwo'
 
 
@@ -11,13 +12,11 @@ function App() {
     <>
       <Header />
       <Form />
-      <SectionOne />
       <SectionTwo />
+      <SectionOne />
+      <SectionThree />
     </>
   )
 }
-
-// #e4501d - laranja 
-// #082b6d - azul
 
 export default App
