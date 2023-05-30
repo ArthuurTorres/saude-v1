@@ -3,6 +3,8 @@ import arrowd from '../assets/arrowd.gif'
 import computer from '../assets/computer.gif'
 import medical from '../assets/medical.gif'
 import video from '../assets/video.gif'
+import arrowr from '../assets/arrowr.png'
+import arrowl from '../assets/arrowl.png'
 
 const SectionThree = () => {
   return (
@@ -65,7 +67,13 @@ const SectionThree = () => {
           disposição para oferecer conforto, acolhimento e cuidado aos beneﬁciários.</p>
       </div>
     </div>
-
+    <div>
+      <button className='button'>
+        <img className='buttonarrow' src={arrowl} alt="arrow left"/>
+        Fale com seu consultor
+        <img className='buttonarrow' src={arrowr} alt="arrow right"/>
+        </button>
+    </div>
 
     </section>
   )
