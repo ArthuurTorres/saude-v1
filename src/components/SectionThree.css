@@ -151,11 +151,21 @@
 
 @media (max-width: 470px){
   .icon-text{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
+
+  .icon-text div{
+    width: 8rem;
+    height: 6.9rem;
+  }
+
   .dif-2 div{
-   height: 500px;
+   height: 420px;
    width: 200px;
+  }
+  
+  .dif-2 img{
+    margin-top: 1rem;
   }
 }

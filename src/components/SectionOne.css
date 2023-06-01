@@ -69,3 +69,13 @@ section{
     display: none;
   }
 }
+
+@media(max-width: 450px){
+  .text-s1{
+  margin-top: 0;
+  }
+  section{
+    margin-top: 0.7rem;
+    box-shadow: none;
+  }
+}
