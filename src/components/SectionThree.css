@@ -156,8 +156,9 @@
   }
 
   .icon-text div{
-    width: 8rem;
-    height: 6.9rem;
+    width: 7rem;
+    height: 8.7rem;
+    padding: 0.9rem 0.9rem;
   }
 
   .dif-2 div{
@@ -168,4 +169,16 @@
   .dif-2 img{
     margin-top: 1rem;
   }
+}
+
+@media (max-width: 380px) {
+  .icon-text{
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-text div{
+    width: 10rem;
+    height: 5rem;
+  }
+  
 }
