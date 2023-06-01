@@ -1,26 +1,32 @@
 footer{
   background-color: var(--color-5);
-  height: 300px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   color: var(--color-2);
   text-align: left;
+  justify-content: space-around;
+  min-width: 200px;
+}
+
+footer div{
+  margin-top: 1rem;
 }
 
 .logo-footer{
-  width: 40%;
-  height: 40%;
-  margin-top: 4rem;
-  margin-left: 150px;
+  width: 18rem;
+  height: 10rem;
+  margin:auto;
 }
 
-.footer-contact{
+.contact ul{
   display: grid;
-  gap: 1rem;
 }
 
-.footer-icons{
+.footer-icons ul{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 1rem;
   gap: 1rem;
   text-align: center;
@@ -32,32 +38,41 @@ footer{
   margin-top: 0.50rem;
 }
 
-.contact h2::after{
-content: "";
-display: block;
-max-width: 360px;
-height: 2px;
-background: white;
-margin-top: 13px;
+.footer-information ul{
+  display: flex;
+  flex-direction: column;
 }
 
-.footer-contact a:nth-child(2n):after {
+.footer-information h2{
+  margin-bottom: 0.5rem;
+}
+
+.footer-information a{
+  text-decoration: none;
+  color: var(--color-2)
+}
+
+.contact h2::after{
   content: "";
   display: block;
   max-width: 360px;
-  height: 2px;
+  height: 3px;
+  background: white;
+  margin-top: 13px;
+}
+
+.contact ul a:nth-child(2n):after {
+  content: "";
+  display: block;
+  max-width: 360px;
+  height: 3px;
   background: white;
   margin-top: 16px;
 }
 
-.footer-contact p{
-  margin-bottom: 1rem;
-  font-weight: 600;
-  line-height: 2ch;
-  font-size: 0.90rem;
-  color: var(--color-2);
-}
-
-.contact{
-  margin-top: 2rem;
+@media (max-width: 1200px){
+  .logo-footer{
+    width: 13rem;
+    height: 7rem;
+  }
 }

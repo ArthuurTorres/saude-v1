@@ -1,8 +1,9 @@
 .container1{
-  height: 500px;
+  min-height: 500px;
   background: url('../assets/background-services.png');
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .container1 img{
@@ -12,10 +13,10 @@
 }
 
 .icon-menu{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin: auto;
-  gap: 2rem;
 }
 
 .icon-menu p{
@@ -23,11 +24,14 @@
   font-weight: 600;
   line-height: 2ch;
   font-size: 0.90rem;
+  height: 3rem;
 }
 
 .icon-menu div{
+  display: flex;
+  flex-direction: column;
   height: 10rem;
-  width: 18rem;
+  flex-basis: 25%;
 }
 
 .icon-menu h2{
@@ -37,6 +41,7 @@
 
 .icon-menu h3{
   color: var(--color-5);
+  margin-bottom: 0.45rem;
 }
 
 /* RETIRAR VAR */
@@ -58,4 +63,12 @@
 
 .icon-logo h2{
   font-size: 2rem;
+}
+
+
+@media (max-width: 1200px) {
+  .icon-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
