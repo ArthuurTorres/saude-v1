@@ -87,6 +87,7 @@ footer div{
   footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-left: 0.9rem;
   }
 }
 
@@ -94,16 +95,37 @@ footer div{
   footer{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 0.7rem;
   }
 }
 
 
 @media(max-width: 450px){
+  .logo-footer{
+    width: 11rem;
+    height: 6rem;
+  }
   footer{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0.5rem;
   }
   .footer-information{
     text-align: left;
    }
+   footer img{
+    width: 34px;
+    margin-right: 1px;
+   }
+   footer h2{
+    font-size: 1.1rem;
+   }
+}
+
+@media (max-width:370px) {
+  footer{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

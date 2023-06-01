@@ -64,7 +64,7 @@ const SectionThree = () => {
         <h3>Psicólogo na Tela</h3>
         <p>O serviço oferece sessões de psicoterapia por vídeo, 24h, todos os dias, onde você estiver. Basta acessar e 
           agendar pelo App SulAmérica Saúde. Uma equipe de psicólogos treinada para prestar atendimento online está à 
-          disposição para oferecer conforto, acolhimento e cuidado aos beneﬁciários.</p>
+          disposição para oferecer conforto.</p>
       </div>
     </div>
     <div>
