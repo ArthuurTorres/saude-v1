@@ -252,12 +252,13 @@
 
   .dif-2 h3{
     font-size: .75rem;
+    margin-bottom: 0.25rem;
   }
   .dif-2 p{
     font-size: .63rem;
   }
   .dif-2 div{
     width: 120px;
-    height: 240px;
+    height: 260px;
   }
 }
