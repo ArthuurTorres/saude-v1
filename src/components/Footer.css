@@ -72,7 +72,32 @@ footer div{
 
 @media (max-width: 1200px){
   .logo-footer{
-    width: 13rem;
-    height: 7rem;
+    /* width: 13rem;
+    height: 7rem; */
   }
+}
+
+@media (max-width: 850px){
+  footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 650px){
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media(max-width: 450px){
+  footer{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer-information{
+    text-align: center;
+   }
 }

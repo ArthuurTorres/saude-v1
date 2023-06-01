@@ -103,3 +103,26 @@
   border: 1px solid #ddd;
   border-radius: 0.1rem
 }
+
+
+@media (max-width: 650px){
+  .bg-form div{
+    right: 1%;
+    width: 25rem;
+    height: 22rem;
+  }
+}
+
+@media (max-width: 400px){
+  .bg-form div{
+    left: 3%;
+    width: 23rem;
+    height: 22rem;
+  }
+}
+
+@media (max-width: 380px){
+  .bg-form div{
+    width: 20rem;
+  }
+}

@@ -49,3 +49,29 @@ header nav a{
     padding: 0.50rem 0.60rem;
   }
 }
+
+@media (max-width: 650px){
+    header{
+      justify-content: center;
+    }
+    header nav{
+      padding: 0.5rem 0.5rem;
+    }
+    header nav a{
+      margin-right: 0px;
+      font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 370px){
+  header{
+    margin: auto;
+  }
+  header nav{
+    display: grid;
+    gap: 0.5rem;
+  }
+  header nav a{
+    font-size: 1.2rem;
+  }
+}
