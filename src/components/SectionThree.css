@@ -167,7 +167,7 @@
   }
   .dif-2 div{
     height: 330px;
-    width: 140px;
+    width: 180px;
    }
    .dif-2 h3{
     font-size: .9rem;
@@ -177,11 +177,16 @@
   .dif-2 p{
     font-size: .7rem;
   }
+  
 }
 
-@media (max-width: 470px){
+@media (max-width: 490px){
 
   .icon-text p{
+    font-size: 0.7rem;
+  }
+
+  .icon-text4{
     font-size: 1rem;
   }
 
@@ -192,8 +197,11 @@
 
   .icon-text div{
     width: 7rem;
-    height: 7.5rem;
-    padding: 0.9rem 0.9rem;
+    height: 3.3rem;
+  }
+
+  .icon-text h4{
+    font-size: 1rem;
   }
 
   .dif{
@@ -241,9 +249,10 @@
   .icon-text h4{
     font-size: 1.1rem;
   }
+
   .icon-text div{
-    width: 7rem;
-    height: 4rem;
+    width: 6rem;
+    height: 3.3rem;
   }
 
   .dif-2 img{
@@ -259,6 +268,13 @@
   }
   .dif-2 div{
     width: 120px;
-    height: 260px;
+    height: 270px;
+  }
+}
+
+@media (max-width: 370px) {
+  .dif-2 div{
+    width: 110px;
+    height: 270px;
   }
 }
