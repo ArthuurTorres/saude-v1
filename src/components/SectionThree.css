@@ -168,6 +168,15 @@
 }
 
 @media (max-width: 470px){
+
+  .dif{
+    font-size: 1.2rem;
+  }
+
+  .icon-text p{
+    font-size: 1rem;
+  }
+
   .icon-text{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -175,7 +184,7 @@
 
   .icon-text div{
     width: 7rem;
-    height: 8.7rem;
+    height: 7.5rem;
     padding: 0.9rem 0.9rem;
   }
 
@@ -186,7 +195,7 @@
 
   .dif-2 div{
    height: 420px;
-   width: 190px;
+   width: 200px;
   }
   
   .dif-2 img{
