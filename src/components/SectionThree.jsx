@@ -20,11 +20,11 @@ const SectionThree = () => {
        <div className="icon-text">
        <div>
         <h4>2.4 milhões</h4>
-        <p>de beneficiários - Saúde</p>
+        <p>de beneficiários-Saúde</p>
       </div>
       <div>
         <h4>1.8 milhões</h4>
-        <p>de beneficiários - Odonto</p>
+        <p>de beneficiários-Odonto</p>
       </div>
       <div>
         <h4>+3.600</h4>
