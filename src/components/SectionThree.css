@@ -67,7 +67,7 @@
 
 .dif-2 div{
   background: var(--color-2);
-  width: 400px;
+  width: 380px;
   height: 400px;
   margin: 1rem;
   border-radius: 1rem;
@@ -132,10 +132,28 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .dif-2 div{
+    height: 420px;
+    width: 280px;
+   }
+}
+
+@media (max-width: 1030px) {
+  .dif-2{
+    justify-content: center;
+  }
+  .dif-2 div{
+    height: 410px;
+    width: 270px;
+   }
+   .dif{
+    display: flex;
+    flex-wrap: wrap;
+   }
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 900px){
   .dif{
     margin-right: 10px;
     margin-left: 15px;
@@ -184,5 +202,4 @@
     width: 10rem;
     height: 5rem;
   }
-  
 }

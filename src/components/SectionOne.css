@@ -70,6 +70,12 @@ section{
   }
 }
 
+@media(max-width: 840px){
+  .text-s1{
+    margin-left: 2rem;
+  }
+}
+
 @media(max-width: 450px){
   .text-s1{
   margin-top: 0;
