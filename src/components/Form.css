@@ -120,3 +120,12 @@
     height: 22rem;
   }
 }
+
+
+@media (max-width: 399px){
+  .bg-form div{
+    text-align: center;
+    width: 19rem;
+    height: 22rem;
+  }
+}

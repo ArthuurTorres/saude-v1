@@ -181,11 +181,12 @@
 
   .dif{
     margin-top: 0rem;
+    margin-bottom: 1rem;
   }
 
   .dif-2 div{
    height: 420px;
-   width: 200px;
+   width: 190px;
   }
   
   .dif-2 img{
@@ -201,5 +202,10 @@
   .icon-text div{
     width: 10rem;
     height: 5rem;
+  }
+}
+@media (max-width: 380px) {
+  .button{
+    padding: 17px 12px;
   }
 }

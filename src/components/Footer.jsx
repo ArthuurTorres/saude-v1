@@ -4,6 +4,8 @@ import facebook from '../assets/facebook.svg'
 import instagram from '../assets/instagram.svg'
 import twitter from '../assets/twitter.svg'
 import linkedin from '../assets/linkedin.svg'
+import mail from '../assets/mail.png'
+import phone from '../assets/phone.png'
 
 export const Footer = () => {
   return (
@@ -17,9 +19,11 @@ export const Footer = () => {
           <h2>Contato</h2>
           <ul> 
             <a href="#">
+              <img src={phone} alt="phone"/>
               (22) 9999-9999
               </a>
             <a href="#">
+              <img src={mail} alt="email"/>
               email@email.com
               </a>
           </ul>

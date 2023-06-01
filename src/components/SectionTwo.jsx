@@ -45,17 +45,17 @@ const SectionTwo = () => {
         <div>
           <img src={health} alt="health" />
           <h3>Integrada de Saúde</h3>
-          <p>Ações de acompanhamento e promoção à saúde aderentes às necessidades dos segurados.</p>
+          <p>promoção à saúde aderentes às necessidades dos segurados.</p>
         </div>
         <div>
           <img src={health} alt="health" />
           <h3>Integrada de Saúde</h3>
-          <p>Ações de acompanhamento e promoção à saúde aderentes às necessidades dos segurados.</p>
+          <p>aderentes às necessidades dos segurados.</p>
         </div>
         <div>
           <img src={health} alt="health" />
           <h3>Integrada de Saúde</h3>
-          <p>Ações de acompanhamento e promoção à saúde aderentes às necessidades dos segurados.</p>
+          <p>aderentes às necessidades dos segurados.</p>
         </div>
      </div>
      

@@ -91,9 +91,14 @@
 
 @media (max-width: 400px){
   .icon-menu{
-    display: flex;
+    display: grid;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .icon-menu p{
+    font-size: 0.9rem;
+    margin-right: 0.20px;
   }
 
   .icontitle{

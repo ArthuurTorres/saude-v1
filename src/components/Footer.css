@@ -23,6 +23,12 @@ footer div{
   display: grid;
 }
 
+.contact a img{
+  width: 16px;
+  height: 16px;
+  margin-right: 0.50rem;
+}
+
 .footer-icons ul{
   display: flex;
   flex-direction: row;
