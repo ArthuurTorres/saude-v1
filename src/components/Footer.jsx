@@ -1,11 +1,11 @@
 import './Footer.css'
 import logof from '../assets/sulamerica-logo-footer.svg'
-import facebook from '../assets/facebook.svg'
-import instagram from '../assets/instagram.svg'
-import twitter from '../assets/twitter.svg'
-import linkedin from '../assets/linkedin.svg'
-import mail from '../assets/mail.png'
-import phone from '../assets/phone.png'
+import facebook from '../assets/icons/facebook.svg'
+import instagram from '../assets/icons/instagram.svg'
+import twitter from '../assets/icons/twitter.svg'
+import linkedin from '../assets/icons/linkedin.svg'
+import mail from '../assets/icons/mail.png'
+import phone from '../assets/icons/phone.png'
 
 export const Footer = () => {
   return (

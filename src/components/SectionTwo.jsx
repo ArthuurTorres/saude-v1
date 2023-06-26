@@ -1,66 +1,82 @@
 import './SectionTwo.css'
-import refound from '../assets/refound.gif'
-import company from '../assets/company.gif'
-import bed from '../assets/bed.gif'
-import money from '../assets/money.gif'
-import service from '../assets/service.gif'
-import health from '../assets/health.gif'
-import icontitle from '../assets/icon-title.png'
+import arrowd from '../assets/icons/arrowd.gif'
+import computer from '../assets/icons/computer.gif'
+import medical from '../assets/icons/medical.gif'
+import video from '../assets/icons/video.gif'
+import arrowr from '../assets/icons/arrowr.png'
+import arrowl from '../assets/icons/arrowl.png'
 
 const SectionTwo = () => {
-
   return (
-    <section className="container1">
-          <div className="icon-logo">
-          <h2>
-            <img className="icontitle" src={icontitle}></img>
-            Confira alguns dos nossos <span className='orange-detail'>benefícios.</span></h2>
-          </div>
-      <div className="icon-menu">         
-        <div>
-          <img src={refound} alt="Refound" />
-          <h3>Reembolso</h3>
-          <p>Exclusivo para fisioterapia, nutricionista, psicologia, fonoaudiologia, acupuntura e terapia ocupacional.</p>
-        </div>
-        <div>
-          <img src={company} alt="Company" />
-          <h3>Contratação</h3>
-          <p>Para empresas a partir de 2 vidas.</p>
-        </div>
-        <div>
-          <img src={bed} alt="Bed" />
-          <h3>Acomodação</h3>
-          <p>Opção de contratação com acomodação individual (apartamento) ou com até quatro pessoas no quarto (enfermaria).</p>
-        </div>
-        <div>
-          <img src={money} alt="Money" />
-          <h3>Investimento</h3>
-          <p>Exclusivo para fisioterapia, nutricionista, psicologia, fonoaudiologia, acupuntura e terapia ocupacional.</p>
-        </div>
-        <div>
-          <img src={service} alt="Service" />
-          <h3>Atendimento</h3>
-          <p>Ambulatorial e hospitalar com obstetrícia.</p>
-        </div>
-        <div>
-          <img src={health} alt="health" />
-          <h3>Integrada de Saúde</h3>
-          <p>promoção à saúde aderentes às necessidades dos segurados.</p>
-        </div>
-        <div>
-          <img src={health} alt="health" />
-          <h3>Integrada de Saúde</h3>
-          <p>aderentes às necessidades dos segurados.</p>
-        </div>
-        <div>
-          <img src={health} alt="health" />
-          <h3>Integrada de Saúde</h3>
-          <p>aderentes às necessidades dos segurados.</p>
-        </div>
-     </div>
-     
+    <section className='container2'>
+
+      <div className="dif">
+      <h2>
+        <span className="orange-detail">Diferencias</span> da empresa.
+        <img className="arrowd" src={arrowd}></img>
+      </h2>
+      </div>
+
+       <div className="icon-text">
+       <div>
+        <h4>2.4 milhões</h4>
+        <p>de beneficiários-Saúde</p>
+      </div>
+      <div>
+        <h4>1.8 milhões</h4>
+        <p>de beneficiários-Odonto</p>
+      </div>
+      <div>
+        <h4>+3.600</h4>
+        <p>laboratórios</p>
+      </div>
+      <div>
+        <h4>1.200</h4>
+        <p>hospitais</p>
+      </div>
+      <div>
+        <h4>+18.300</h4>
+        <p>profissionais de saúde</p>
+      </div>
+      <div>
+        <h4>+11.000</h4>
+        <p>de profissionais de odonto</p>
+      </div>
+     </div> 
+
+    <div className='dif-2'>
+      <div>
+        <img src={medical} alt="Medical" />
+        <h3>Orientação Médica 24h</h3>
+        <p>
+          Com a Orientação Médica Telefônica da SulAmérica, você tira suas dúvidas de saúde
+          com profissionais especializados, 24 horas por dia, 7 dias por semana, de forma
+          gratuita e ilimitada em todo o país.</p>
+      </div>
+      <div>
+        <img src={computer} alt="Computer" />
+        <h3>Pronto atendimento e especialistas</h3>
+        <p>Você contará com pronto atendimento (clinico geral e pediatra) disponível 24 horas por dia, todos os dias, 
+          inclusive feriados.E ainda poderá agendar consultas online com médicos especialistas da rede referenciada.</p>
+      </div>
+      <div>
+        <img src={video} alt="Video" />
+        <h3>Psicólogo na Tela</h3>
+        <p>O serviço oferece sessões de psicoterapia por vídeo, 24h, todos os dias, onde você estiver. Basta acessar e 
+          agendar pelo App SulAmérica Saúde. Uma equipe de psicólogos treinada para prestar atendimento online está à 
+          disposição para oferecer conforto.</p>
+      </div>
+    </div>
+    <div>
+      <button className='button'>
+        <img className='buttonarrow' src={arrowl} alt="arrow left"/>
+        Fale com seu consultor
+        <img className='buttonarrow' src={arrowr} alt="arrow right"/>
+        </button>
+    </div>
+
     </section>
   )
 }
 
-export default SectionTwo
+export default SectionTwo;
