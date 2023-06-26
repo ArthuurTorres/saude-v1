@@ -1,4 +1,4 @@
-import './SectionOne.css'
+import './Benefits.css'
 import refound from '../assets/icons/refound.gif'
 import company from '../assets/icons/company.gif'
 import bed from '../assets/icons/bed.gif'
@@ -7,12 +7,10 @@ import service from '../assets/icons/service.gif'
 import health from '../assets/icons/health.gif'
 import icontitle from '../assets/icons/icon-title.png'
 
-import img from '../assets/img-header.jpg';
-
-
-const SectionOne = () => {
+const Benefits = () => {
 
   return (
+
     <section className="container1">
           <div className="icon-logo">
           <h2>
@@ -40,7 +38,9 @@ const SectionOne = () => {
           <h3>Investimento</h3>
           <p>Exclusivo para fisioterapia, nutricionista, psicologia, fonoaudiologia, acupuntura e terapia ocupacional.</p>
         </div>
-        <div>
+      </div>  
+      <div className="icon-menu">
+      <div>
           <img src={service} alt="Service" />
           <h3>Atendimento</h3>
           <p>Ambulatorial e hospitalar com obstetrícia.</p>
@@ -60,19 +60,9 @@ const SectionOne = () => {
           <h3>Integrada de Saúde</h3>
           <p>aderentes às necessidades dos segurados.</p>
         </div>
-     </div>
-     
-     <section>
-      <div className="text-s1">
-      <h2><span className="orange-detail">Planos sob medida</span> com os melhores hospitais, clínicas, médicos e laboratórios para você cuidar da sua <span className="orange-detail">Saúde Integral</span><span className="span">.</span></h2>
       </div>
-      <div>
-      <img className="middle-banner" src={img} alt=""/>
-      </div>
-    </section>
-
-    </section>
+    </section>  
   )
 }
 
-export default SectionOne;
+export default Benefits
